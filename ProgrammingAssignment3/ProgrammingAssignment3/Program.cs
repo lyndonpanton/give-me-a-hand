@@ -70,7 +70,7 @@ namespace ProgrammingAssignment3
 					}
 				}
 
-
+				Console.WriteLine("C" + clubCount + " D" + diamondCount + " H" + heartCount + " S" + spadeCount);
 
 				// Don't add or modify any code below
 				// this comment
