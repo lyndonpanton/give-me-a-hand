@@ -39,6 +39,13 @@ namespace ProgrammingAssignment3
 				// course add more space between the
 				// comments as needed
 
+				List<Card> hand = new List<Card>();
+
+				for (int i = 0; i < numCards; i++)
+				{
+					hand.Add(GetCard());
+				}
+
 
 
 				// Don't add or modify any code below
