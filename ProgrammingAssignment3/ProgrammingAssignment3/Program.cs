@@ -46,6 +46,30 @@ namespace ProgrammingAssignment3
 					hand.Add(GetCard());
 				}
 
+				int clubCount = 0;
+				int diamondCount = 0;
+				int heartCount = 0;
+				int spadeCount = 0;
+
+				foreach (Card card in hand)
+				{
+					switch(card.Suit)
+					{
+						case Suit.Clubs:
+							clubCount++;
+							break;
+						case Suit.Diamonds:
+							diamondCount++;
+							break;
+						case Suit.Hearts:
+							heartCount++;
+							break;
+						case Suit.Spades:
+							spadeCount++;
+							break;
+					}
+				}
+
 
 
 				// Don't add or modify any code below
